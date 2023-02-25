@@ -1,6 +1,10 @@
 /* GOOGLE FONTS FONT-FAMILY: POPPINS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +101,7 @@ a {
 
 a:hover {
   color: rgb(107, 107, 107);
-  transition: 0.3s;
+  transition: 0.39s;
 }
 
 button {
@@ -225,6 +229,7 @@ header button img {
   flex-wrap: wrap;
   margin: auto;
   margin-top: 5rem;
+  transform: scale(1.2);
 }
 
 #stacks div img {
@@ -356,6 +361,11 @@ footer>p {
   font-weight: bold;
 }
 
+#creator {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 15px;
+}
+
 #contact-information {
   float: right;
   display: flex;
@@ -423,7 +433,7 @@ footer>p {
 
 @keyframes heart {
   0% {
-    transform: scale(1.07);
+    transform: scale(1.08);
   }
 }
 
