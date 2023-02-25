@@ -500,9 +500,7 @@ footer>p {
   }
 
   #cards div:nth-child(3),
-  #cards div:nth-child(6) {
-    display: none;
-  }
+  #cards div:nth-child(6) {}
 
   /*FORMATAÇÃO FOOTER*/
   footer {
