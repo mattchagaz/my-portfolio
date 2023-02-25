@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-38EHL206E2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-38EHL206E2')
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/logo-aba.png" />
+    <title>Portfólio</title>
+  </head>
+
+  <body class="dark-theme" id="home">
+    <!--INÍCIO HEADER-->
+    <header>
+      <!--INÍCIO NAV-->
+      <nav>
+        <p title="Logo">&lt;/MC&gt;</p>
+        <span class="icons">
+          <a href="https://github.com/mattbtwxd" target="_blank" title="GitHub">
+            <img
+              src="assets/img/github.svg"
+              alt="Logo Github"
+              width="120px"
+              height="120px"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/peepf_xd/"
+            target="_blank"
+            title="Instagram"
+          >
+            <img
+              src="assets/img/instagram.svg"
+              alt="Logo Instagram"
+              width="120px"
+              height="120px"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/matheusferrazchagas/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <img
+              src="assets/img/linkedin.svg"
+              alt="Logo LinkedIn"
+              width="120px"
+              height="120px"
+            />
+          </a>
+          <button title="Button" id="btn-theme-switch">
+            <img
+              src="assets/img/sun.svg"
+              alt="Imagem sol"
+              onclick="switchTheme()"
+              id="moon"
+            />
+          </button>
+        </span>
+        <ul class="nav-list">
+          <li>
+            <a href="#home" title="Home">Home</a>
+          </li>
+          <li>
+            <a href="#presentation" title="About">Sobre</a>
+          </li>
+          <li>
+            <a href="#stacks" title="Tech Stacks">Tech Stacks</a>
+          </li>
+          <li>
+            <a href="#projects" title="Projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact" title="Contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      <!--FIM NAV-->
+    </header>
+    <!--FIM HEADER-->
+    <!--INÍCIO MAIN-->
+    <main>
+      <section id="presentation">
+        <div style="clear: both"></div>
+        <p title="Presentation">
+          Olá 👋,<br />
+          meu nome é <span translate="no">Matheus Chagas</span><br />
+          Sou estudante de T.I.<br />
+          e Desenvolvimento Web
+        </p>
+        <a href="CURRÍCULO Web.pdf" title="Curriculum" download
+          >Download CV <i class="fa-solid fa-download"></i
+        ></a>
+        <!-- <img src="assets/img/download.svg" alt="download image" id="download"> -->
+        <div style="clear: both"></div>
+        <img
+          src="assets/img/photo.jpeg"
+          alt="Foto de Perfil"
+          title="Profile Picture"
+        />
+      </section>
+      <div style="clear: both"></div>
+      <!--INÍCIO TECH STACKS-->
+      <section id="stacks" data-anime="left">
+        <h2 title="Tech Stacks">Tech Stacks</h2>
+        <div>
+          <img
+            src="assets/img/html5-dark.svg"
+            alt="HTML5"
+            width="140px"
+            height="140px"
+            id="html"
+            title="HTML"
+          />
+          <dialog id="modalhtml">
+            <p>
+              HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção
+              mais básico da web. Define o significado e a estrutura do conteúdo
+              da web. Outras tecnologias além do HTML geralmente são usadas para
+              descrever a aparência/apresentação (CSS) ou a
+              funcionalidade/comportamento (JavaScript) de uma página da
+              web."Hipertexto" refere-se aos links que conectam páginas da Web
+              entre si, seja dentro de um único site ou entre sites. Links são
+              um aspecto fundamental da web.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/css3-dark.svg"
+            alt="CSS3"
+            width="140px"
+            height="140px"
+            id="css"
+            title="CSS"
+          />
+          <dialog id="modalcss">
+            <p>
+              CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma
+              linguagem de estilo (en-US) usada para descrever a apresentação de
+              um documento escrito em HTML ou em XML (incluindo várias
+              linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como
+              elementos são mostrados na tela, no papel, na fala ou em outras
+              mídias. CSS é uma das principais linguagens da open web e é
+              padronizada em navegadores web de acordo com as especificação da
+              W3C.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/javascript.svg"
+            alt="JAVASCRIPT"
+            width="120px"
+            height="120px"
+            id="js"
+            title="JavaScript"
+          />
+          <dialog id="modaljs">
+            <p>
+              JavaScript® (às vezes abreviado para JS) é uma linguagem leve,
+              interpretada e baseada em objetos com funções de primeira classe,
+              mais conhecida como a linguagem de script para páginas Web, mas
+              usada também em vários outros ambientes sem browser, tais como
+              node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma
+              linguagem baseada em protótipos, multi-paradigma e dinâmica,
+              suportando estilos de orientação a objetos, imperativos e
+              declarativos (como por exemplo a programação funcional).
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/react.svg"
+            alt="REACT"
+            width="140px"
+            height="140px"
+            id="reactjs"
+            title="REACT"
+          />
+          <dialog id="modalreact">
+            <p>
+              O React é uma biblioteca criada para construir telas de forma
+              declarativa. Ou seja: o React cria aplicações web para serem
+              executadas em navegadores, sejam eles para desktop, mobile ou
+              qualquer outro dispositivo.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/nodejs-dark.svg"
+            alt="NODE.JS"
+            width="140px"
+            height="140px"
+            id="node"
+            title="Node.js"
+            style="animation-delay: 0.6s"
+          />
+          <dialog id="modalnode">
+            <p>
+              O Node.js é um ambiente de tempo de execução JavaScript de código
+              aberto e multiplataforma. É uma ferramenta popular para quase
+              qualquer tipo de projeto! O Node.js executa o mecanismo JavaScript
+              V8, o núcleo do Google Chrome, fora do navegador. Isso permite que
+              o Node.js tenha um alto desempenho. Um aplicativo Node.js é
+              executado em um único processo, sem criar um novo thread para cada
+              solicitação. O Node.js fornece um conjunto de primitivas de E/S
+              assíncronas em sua biblioteca padrão que impedem o bloqueio do
+              código JavaScript e, geralmente, as bibliotecas no Node.js são
+              escritas usando paradigmas sem bloqueio, tornando o comportamento
+              de bloqueio a exceção e não a norma.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/git-dark.svg"
+            alt="GIT"
+            width="140px"
+            height="140px"
+            id="git"
+            title="Git"
+            style="animation-delay: 0.8s"
+          />
+          <dialog id="modalgit">
+            <p>
+              Git é um sistema de controle de versão distribuído gratuito e de
+              código aberto projetado para lidar com tudo, desde projetos
+              pequenos a muito grandes com velocidade e eficiência.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+          <img
+            src="assets/img/sqlite.svg"
+            alt="SQLite"
+            width="140px"
+            height="140px"
+            id="sqlite"
+            title="SQLite"
+            style="animation-delay: 1s"
+          />
+          <dialog id="modalsqlite">
+            <p>
+              SQL significa Standard Query Language, literalmente a linguagem
+              padrão para realizar queries. A linguagem SQL é utilizada de
+              maneira relativamente parecida entre os principais bancos de dados
+              relacionais do mercado: Oracle, MySQL, MariaDB, PostgreSQL,
+              Microsoft SQL Server, entre muitos outros.
+            </p>
+            <button onclick="closeModal()">Fechar</button>
+          </dialog>
+        </div>
+      </section>
+      <!--FIM TECH STACKS-->
+      <!--INÍCIO PROJETOS-->
+      <section id="projects" data-anime="left">
+        <h2 title="Projects">Projetos</h2>
+        <div id="cards">
+          <div class="card">
+            <div class="projects-content" title="Project NLW-Esports">
+              <img
+                src="assets/img/nlw-esports.png"
+                alt="Foto do projeto Landing Page NLW-Esports"
+              />
+              <h4>Landing Page NLW-esports</h4>
+              <p>
+                Projeto criado através da plataforma Rocketseat no evento
+                NLW-Esports.
+              </p>
+              <br />
+              <p>Tecnologias Utilizadas: HTML, CSS</p>
+              <p>
+                <a
+                  href="https://mattbtwxd.github.io//nlw-esports-explorer/"
+                  target="_blank"
+                  style="margin-right: 1.563rem"
+                  ><i
+                    class="fa-solid fa-link"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >Live Preview</a
+                >
+                <a
+                  href="https://github.com/mattbtwxd/nlw-esports-explorer"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-github"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >View Code</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="projects-content" title="Project Rocketpay">
+              <img
+                src="assets/img/rocketpay.png"
+                alt="Foto do projeto Rocketpay"
+              />
+              <h4>RocketPay</h4>
+              <p>
+                Projeto criado através da plataforma Rocketseat no evento
+                Explorer Lab - JavaScript DOM.
+              </p>
+              <p>Tecnologias Utilizadas: HTML, CSS e JavaScript</p>
+              <p>
+                <a
+                  href="https://explorer-lab-mattbtwxd.vercel.app/"
+                  target="_blank"
+                  style="margin-right: 1.563rem"
+                  ><i
+                    class="fa-solid fa-link"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >Live Preview</a
+                >
+                <a
+                  href="https://github.com/mattbtwxd/explorer-lab"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-github"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >View Code</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="projects-content" title="Project Buscador de CEP">
+              <img
+                src="assets/img/buscador-de-cep.png"
+                alt="Foto do projeto Buscador de CEP"
+              />
+              <h4>Buscador de CEP</h4>
+              <p>
+                Projeto criado através de um mini curso sobre REACT pelo canal
+                Sujeito Programador no YouTube.
+              </p>
+              <p>Tecnologias Utilizadas: HTML, CSS e React.js</p>
+              <p>
+                <a
+                  href="https://buscador-de-cep-mattbtwxd.vercel.app/"
+                  target="_blank"
+                  style="margin-right: 1.563rem"
+                  ><i
+                    class="fa-solid fa-link"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >Live Preview</a
+                >
+                <a
+                  href="https://github.com/mattbtwxd/buscador-de-cep"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-github"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >View Code</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="projects-content" title="Project Cordel Moderno">
+              <img
+                src="assets/img/cordel-moderno.png"
+                alt="Foto do projeto Cordel Moderno"
+              />
+              <h4>Cordel Moderno</h4>
+              <p>
+                Projeto criado através do Mini Curso de HTML/CSS do Gustavo Guanabara no YouTube.
+              </p> <br>
+              <p>Tecnologias Utilizadas: HTML, CSS</p>
+              <p>
+                <a
+                  href="https://projeto-cordel-three.vercel.app/"
+                  target="_blank"
+                  style="margin-right: 1.563rem"
+                  ><i
+                    class="fa-solid fa-link"
+                    style="margin-right: 0.313rem"
+                    style="margin-right: 1.563rem"
+                  ></i
+                  >Live Preview</a
+                >
+                <a
+                  href="https://github.com/mattbtwxd/projeto-cordel"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-github"
+                    style="margin-right: 0.313rem"
+                  ></i
+                  >View Code</a
+                >
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!--FIM PROJETOS-->
+    </main>
+    <!--FIM MAIN-->
+    <!--INÍCIO FOOTER-->
+    <footer id="contact">
+      <p title="Logo">&lt;/MC&gt;</p>
+      <span class="icons">
+        <a
+          href="https://www.linkedin.com/in/matheusferrazchagas/"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <img
+            src="assets/img/linkedin.svg"
+            alt="Logo LinkedIn"
+            width="120px"
+            height="120px"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/peepf_xd/"
+          target="_blank"
+          title="Instagram"
+        >
+          <img
+            src="assets/img/instagram.svg"
+            alt="Logo Instagram"
+            width="120px"
+            height="120px"
+          />
+        </a>
+        <a href="https://github.com/mattbtwxd" target="_blank" title="GitHub">
+          <img
+            src="assets/img/github.svg"
+            alt="Logo Github"
+            width="120px"
+            height="120px"
+          />
+        </a>
+      </span>
+      <ul id="contact-information">
+        <li>
+          <a
+            href="https://web.whatsapp.com/send?phone=5551993473974"
+            target="_blank"
+            title="Telephone"
+            ><i class="fa-brands fa-whatsapp"></i> +55 (51) 99347 - 3974</a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto: matheus.chagas159700@gmail.com?subject=subjecttext"
+            title="E-mail"
+            ><i class="fa-solid fa-envelope"></i>
+            matheus.chagas159700@gmail.com</a
+          >
+        </li>
+      </ul>
+      <div id="divider"></div>
+      <ul id="end-nav">
+        <li>
+          <a href="#home" title="Home">Home</a>
+        </li>
+        <li>
+          <a href="#presentation" title="About">Sobre</a>
+        </li>
+        <li>
+          <a href="#stacks" title="Tech Stacks">Tech Stack</a>
+        </li>
+        <li>
+          <a href="#projects" title="Projects">Projetos</a>
+        </li>
+        <li>
+          <a href="#contact" title="Contact">Contato</a>
+        </li>
+      </ul>
+      <span translate="no"
+        >Made with
+        <i class="fa-solid fa-heart" style="color: firebrick" id="heart"></i> by
+        Matheus Chagas</span
+      >
+    </footer>
+    <!--FIM FOOTER-->
+    <!--SCRIPTS-->
+    <script
+      src="https://kit.fontawesome.com/052b10b1cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
