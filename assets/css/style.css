@@ -499,6 +499,7 @@ footer>p {
     flex-wrap: wrap;
     margin: auto;
     margin-top: 5rem;
+    transform: scale(0.9);
   }
 
   #stacks div img {
@@ -534,6 +535,10 @@ footer>p {
 
   #divider {
     width: 100%;
+  }
+
+  #creator {
+    margin-top: -76px;
   }
 
   footer span:last-child {
