@@ -142,12 +142,12 @@ header span img {
 
 header span img:hover {
   transform: scale(1.2);
-  transition-duration: 0.5s;
+  transition-duration: 0.4s;
 }
 
 footer span img:hover {
   transform: scale(1.2);
-  transition-duration: 0.5s;
+  transition-duration: 0.4s;
 }
 
 header button {
@@ -202,7 +202,7 @@ header button img {
   border-color: transparent;
   border-radius: 0.438rem;
   color: var(--hover-font-color);
-  transition: 0.5s;
+  transition: 0.90s;
 }
 
 #presentation a i {
